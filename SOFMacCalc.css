@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('SOF_0294.JPG');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: url('file:///Users/your-username/Desktop/New%20Folder%20With%20Items/SOF.IMG/SOF_0294.JPG') center center no-repeat;
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
+}
+
+h2 {
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+label, input, select, button {
+    margin-bottom: 10px;
+    display: block; /* Each form element on a new line */
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #f1c40f; /* Yellow background color */
+    color: #3498db; /* Blue text color */
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
+button:hover {
+    background-color: #e2b607; /* Darker yellow on hover */
+}
+
+#result {
+    margin-top: 20px;
+    background-color: #fff; /* White background color */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    color: black; /* Text color */
+}
